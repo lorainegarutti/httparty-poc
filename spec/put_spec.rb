@@ -1,18 +1,13 @@
 # frozen_string_literal: true
 
-describe 'changing information' do
-  it 'modify user information' do
-    @new_user = {
-      'nome' => Faker::Name.name,
-      'email' => Faker::Internet.email,
-      'password' => Faker::Internet.password,
-      'administrador' => Faker::Boolean.boolean
-    }
-    # puts @new_user
+describe 'changing users information' do
+  it 'modify valid user information with a 200 return' do
+    @id_user = 'BiToEmWvoaAfXS00'
 
-    @id_user = 'DE7RTKT8SWmcIc3e'
-    @request = Request.put(%(/usuarios/#{@id_user}), body: @new_user)
-    expect(@request.code).to eq(200)
-    expect(@request['message']).to eq('Registro alterado com sucesso')
+    @users = Requests.new
+    @response = @users.modify_user_information(@id_user)
+
+    expect(@response.code).to eq(200)
+    expect(@response['message']).to eq('Registro alterado com sucesso')
   end
 end

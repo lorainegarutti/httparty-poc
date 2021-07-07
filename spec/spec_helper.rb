@@ -4,7 +4,7 @@ require 'faker'
 require 'httparty'
 require 'rubocop'
 
-require_relative '../services/user_service'
+require_relative '../pages/user'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
