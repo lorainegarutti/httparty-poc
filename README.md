@@ -1,3 +1,4 @@
+
 ### This repository uses:
 
 - https://github.com/jnunemaker/httparty/
@@ -10,3 +11,8 @@
 - https://www.rubydoc.info/github/jnunemaker/httparty/HTTParty/ClassMethods
 - https://www.rubydoc.info/github/jnunemaker/httparty/HTTParty/Response
 - https://relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
+
+
+### Follow studying 
+
+- https://blog.teamtreehouse.com/its-time-to-httparty
