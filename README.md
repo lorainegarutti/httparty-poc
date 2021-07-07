@@ -16,3 +16,4 @@
 ### Follow studying 
 
 - https://blog.teamtreehouse.com/its-time-to-httparty
+- https://www.joshmcarthur.com/til/2018/05/29/simple-ruby-api-clients-with-httparty.html
